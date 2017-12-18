@@ -1,0 +1,105 @@
+/**
+ * @Author: timaanonsen
+ * @Date:   12-14-2017 10:12::00
+ * @Filename: custom.css
+ * @Last modified by:   timaanonsen
+ * @Last modified time: 12-14-2017 14:12::94
+ */
+
+/* all h1 will be red */
+h1 {
+  /*
+   position : fixed;
+*/
+     background-color : #ccffff;
+     color : red;
+     z-index : 1;
+}
+
+/* all li will be 30 pixil in size */
+li {
+  list-style-type: none;
+  font-size : 30px;
+  color : #000;
+   }
+
+.card {
+  border : solid;
+  text-align : center;
+  width : 30%;
+  float : left;
+  height : 500px;
+  background-color : #efe2c9;
+}
+
+
+/* all CLASS bold will be bold */
+.bold {
+   font-weight: bold;
+}
+
+.blue { color : blue;
+}
+/**/
+
+#peter{
+/*        color : green;
+        border : solid;
+        border-width : 100px;
+        width : 500px;
+        background : #b3c6ff;
+        padding : 20px;
+        margin : 200px;
+*/
+      }
+        /**/
+/*
+box-sizing : border-box;     NEED TO READ ABOUT THIS
+*/
+
+
+
+
+/* all spans that reside inside a li will be bold */
+li span {
+/*  text-decoration : underline;
+*/
+}
+
+body {
+  background-color : #505866;
+  margin : 0;
+  padding : 0;
+}
+
+
+.container {
+            position: absolute;
+            width : 100%;
+            }
+
+.header {
+         position : fixed;
+         background-color : #ccffff;
+         width : 100%;
+         z-index : 1;
+         text-align : center;
+              }
+
+ul {
+  width : 80%;
+  margin : 0 auto;
+  background-color : #dee2e8;
+  position : relative;
+  top : 100px;
+  z-index : 0;
+}
+
+ul > div {
+  border : solid;
+  width : 40%;
+  text-align : center;
+  margin : 0 auto 20px auto;
+  float : left;
+  height : 500px;
+}
